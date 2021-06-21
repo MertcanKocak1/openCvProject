@@ -1,5 +1,6 @@
 import easyocr
 
+
 def karakterTanıma(croppedImage):
     reader = easyocr.Reader(['en'])
     result = reader.readtext(croppedImage)

@@ -22,7 +22,7 @@ def aracGirisi(plaka):
         print("Kapı Açılıyor")
         conn.commit()
     else:
-        print("Veritabanında kayıtlı değilsiniz giriş yapamayacaksınız")
+        print("Veritabanında kayıtlı değilsiniz giriş yapamayacaksınız" , plaka)
 
 
 def aracEkle(aracSahibi, plaka, model):
